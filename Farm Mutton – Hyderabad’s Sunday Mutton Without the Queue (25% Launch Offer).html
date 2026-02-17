@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)https://farmmutton.com/d#faq -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Hyderabad’s Sunday mutton without the butcher queue. Grass-fed curry cut, boneless and kheema, slaughtered Sunday morning and delivered within 2 hours across West Hyderabad. 25% launch offer.">
+    <meta name="keywords" content="sunday mutton hyderabad, mutton delivery gachibowli, boneless mutton hitech city, fresh mutton kondapur, grass fed goat hyderabad">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="https://farmmutton.com/favicon.ico">
+    <link rel="icon" type="image/png" sizes="144x144" href="https://farmmutton.com/favicon-144x144.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://farmmutton.com/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://farmmutton.com/favicon-144x144.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)_files/css2" rel="stylesheet">
+
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+
+        :root{
+            --primary:#00d084;
+            --primary-dark:#00a86b;
+            --accent:#ff3b30;
+            --text:#fefefe;
+            --text-dim:#c0c0c0;
+            --bg:#050505;
+            --card:#101010;
+        }
+
+        body{
+            font-family:'Inter',sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            line-height:1.6;
+            overflow-x:hidden;
+        }
+
+        a{text-decoration:none;color:inherit;}
+
+        /* HEADER */
+        header{
+            position:fixed;
+            top:0;
+            width:100%;
+            padding:10px 5%;
+            background:rgba(0,0,0,0.96);
+            border-bottom:1px solid #222;
+            backdrop-filter:blur(10px);
+            z-index:1000;
+        }
+        .header-inner{
+            max-width:1200px;
+            margin:0 auto;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            gap:12px;
+        }
+        .logo-wrap{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+        .logo-img{
+            width:40px;
+            height:40px;
+            object-fit:contain;
+        }
+        .logo-text{
+            font-family:'Bebas Neue',sans-serif;
+            font-size:1.6rem;
+            color:var(--primary);
+            letter-spacing:2px;
+        }
+        nav{
+            display:flex;
+            gap:20px;
+            align-items:center;
+            font-size:0.85rem;
+        }
+        nav a{
+            color:var(--text-dim);
+            font-weight:600;
+        }
+        nav a:hover{color:var(--primary);}
+
+        .header-cta{
+            background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);
+            border:none;
+            border-radius:999px;
+            padding:8px 18px;
+            font-size:0.8rem;
+            font-weight:700;
+            text-transform:uppercase;
+            cursor:pointer;
+            color:#000;
+        }
+
+        .menu-toggle{display:none;flex-direction:column;gap:4px;cursor:pointer;}
+        .menu-toggle span{width:24px;height:3px;background:var(--primary);border-radius:3px;}
+
+        @media(max-width:900px){
+            nav{
+                position:fixed;
+                top:60px;
+                right:-100%;
+                width:70%;
+                height:calc(100vh - 60px);
+                flex-direction:column;
+                align-items:flex-start;
+                padding:24px 20px;
+                background:#000;
+                border-left:2px solid var(--primary);
+                transition:right 0.3s ease;
+            }
+            nav.active{right:0;}
+            .menu-toggle{display:flex;}
+            .header-cta{display:none;}
+        }
+
+        /* HERO */
+        .hero{
+            padding:100px 5% 40px;
+            background:radial-gradient(ellipse at top,#1a0d00 0%,#000 70%);
+        }
+        .hero-grid{
+            max-width:1200px;
+            margin:0 auto;
+            display:grid;
+            grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);
+            gap:40px;
+            align-items:center;
+        }
+        @media(max-width:900px){
+            .hero-grid{grid-template-columns:1fr;}
+            .hero{padding-top:90px;}
+        }
+
+        .offer-pill{
+            display:inline-flex;
+            align-items:center;
+            gap:8px;
+            background:linear-gradient(135deg,var(--accent) 0%,#c70039 100%);
+            padding:6px 16px;
+            border-radius:999px;
+            font-size:0.8rem;
+            font-weight:700;
+            text-transform:uppercase;
+            margin-bottom:10px;
+        }
+        .offer-pill span:last-child{
+            font-size:0.75rem;
+            opacity:0.9;
+        }
+        .hero-title{
+            font-family:'Bebas Neue',sans-serif;
+            font-size:clamp(2.4rem,5vw,3.8rem);
+            margin-bottom:10px;
+        }
+        .hero-title span{color:var(--primary);}
+        .hero-sub{
+            font-size:0.95rem;
+            color:var(--text-dim);
+            margin-bottom:14px;
+        }
+        .hero-metrics{
+            display:flex;
+            flex-wrap:wrap;
+            gap:14px;
+            font-size:0.8rem;
+            color:var(--text-dim);
+            margin-bottom:14px;
+        }
+        .hero-metrics strong{color:var(--primary);}
+        .hero-cta-row{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+            margin-bottom:12px;
+        }
+        .btn-main{
+            background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);
+            border:none;
+            border-radius:999px;
+            padding:12px 24px;
+            font-size:0.85rem;
+            font-weight:800;
+            text-transform:uppercase;
+            cursor:pointer;
+            color:#000;
+        }
+        .btn-ghost{
+            border-radius:999px;
+            border:1px solid var(--primary);
+            background:transparent;
+            color:var(--primary);
+            padding:10px 20px;
+            font-size:0.8rem;
+            font-weight:700;
+            text-transform:uppercase;
+            cursor:pointer;
+        }
+        .urgency{
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            margin-top:8px;
+            padding:6px 10px;
+            border-radius:10px;
+            border:1px solid rgba(255,59,48,0.4);
+            background:rgba(255,59,48,0.1);
+            font-size:0.75rem;
+            color:#ff9d9d;
+        }
+        .urgency strong{color:var(--accent);}
+
+        .hero-visual{
+            max-width:380px;
+            margin:0 auto;
+        }
+        .hero-card{
+            background:radial-gradient(circle at top,rgba(0,208,132,0.25),rgba(0,0,0,0.9));
+            border-radius:22px;
+            padding:18px;
+            border:2px solid rgba(0,208,132,0.5);
+            box-shadow:0 18px 40px rgba(0,0,0,0.9);
+        }
+        .hero-card img{
+            width:100%;
+            border-radius:16px;
+            display:block;
+            background:#fff;
+        }
+        .hero-caption{
+            font-size:0.8rem;
+            color:var(--text-dim);
+            margin-top:8px;
+        }
+
+        /* SECTIONS */
+        .section{
+            max-width:1200px;
+            margin:0 auto;
+            padding:50px 5%;
+        }
+        .section-header{
+            text-align:center;
+            margin-bottom:30px;
+        }
+        .section-eyebrow{
+            font-family:'JetBrains Mono',monospace;
+            font-size:0.75rem;
+            letter-spacing:3px;
+            text-transform:uppercase;
+            color:var(--primary);
+            margin-bottom:8px;
+        }
+        .section-title{
+            font-family:'Bebas Neue',sans-serif;
+            font-size:clamp(2rem,4vw,3rem);
+        }
+        .section-sub{
+            font-size:0.9rem;
+            color:var(--text-dim);
+            margin-top:6px;
+            max-width:620px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        /* PRODUCTS */
+        .products-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:20px;
+        }
+        .p-card{
+            background:var(--card);
+            border-radius:18px;
+            border:1px solid #222;
+            overflow:hidden;
+            display:flex;
+            flex-direction:column;
+        }
+        .p-img-wrap img{
+            width:100%;
+            height:190px;
+            object-fit:cover;
+            background:#fff;
+        }
+        .p-content{
+            padding:14px 14px 16px;
+            display:flex;
+            flex-direction:column;
+            gap:8px;
+        }
+        .p-badge{
+            font-size:0.7rem;
+            font-weight:700;
+            color:#fff;
+            background:var(--accent);
+            border-radius:999px;
+            padding:3px 8px;
+            display:inline-block;
+        }
+        .p-title-row{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:8px;
+        }
+        .p-title{
+            font-family:'Bebas Neue',sans-serif;
+            font-size:1.6rem;
+            color:var(--primary);
+        }
+        .p-desc{
+            font-size:0.8rem;
+            color:var(--text-dim);
+        }
+        .p-price-row{
+            display:flex;
+            align-items:baseline;
+            gap:8px;
+        }
+        .p-old{
+            font-size:0.85rem;
+            color:#666;
+            text-decoration:line-through;
+        }
+        .p-new{
+            font-size:1.3rem;
+            font-weight:800;
+        }
+        .p-meta{
+            font-size:0.75rem;
+            color:var(--text-dim);
+        }
+        .p-size-row{
+            display:flex;
+            gap:8px;
+            margin-top:4px;
+        }
+        .p-size-btn{
+            flex:1;
+            font-size:0.75rem;
+            padding:6px 0;
+            border-radius:999px;
+            border:1px solid #333;
+            background:transparent;
+            color:var(--text-dim);
+            cursor:pointer;
+        }
+        .p-size-btn.active{
+            border-color:var(--primary);
+            background:rgba(0,208,132,0.1);
+            color:var(--primary);
+        }
+        .p-qty-row{
+            display:flex;
+            gap:6px;
+            align-items:center;
+            margin-top:8px;
+        }
+        .p-qty-btn{
+            width:26px;
+            height:26px;
+            border-radius:50%;
+            border:1px solid #333;
+            background:#000;
+            color:var(--text);
+            font-size:0.9rem;
+            cursor:pointer;
+        }
+        .p-qty-display{
+            min-width:18px;
+            text-align:center;
+            font-size:0.85rem;
+        }
+        .p-add-btn{
+            flex:1;
+            font-size:0.8rem;
+            font-weight:700;
+            text-transform:uppercase;
+            border-radius:999px;
+            border:none;
+            background:var(--primary);
+            color:#000;
+            padding:8px 10px;
+            cursor:pointer;
+        }
+
+        /* EDUCATION */
+        .edu-wrap{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+            gap:18px;
+        }
+        .edu-card{
+            background:#060f0b;
+            border-radius:14px;
+            border:1px solid rgba(0,208,132,0.3);
+            padding:18px 16px;
+            text-align:center;
+        }
+        .edu-icon{font-size:2.2rem;margin-bottom:6px;}
+        .edu-title{font-size:1.05rem;font-weight:700;color:var(--primary);margin-bottom:4px;}
+        .edu-text{font-size:0.85rem;color:var(--text-dim);}
+
+        /* TESTIMONIALS */
+        .t-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:18px;
+        }
+        .t-card{
+            background:#080808;
+            border-radius:14px;
+            border:1px solid #222;
+            padding:16px 16px 18px;
+        }
+        .t-header{
+            display:flex;
+            gap:10px;
+            align-items:center;
+            margin-bottom:6px;
+        }
+        .t-avatar{
+            width:40px;
+            height:40px;
+            border-radius:50%;
+            background:var(--primary);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-weight:700;
+            color:#000;
+        }
+        .t-name{font-size:0.9rem;font-weight:600;}
+        .t-loc{font-size:0.75rem;color:var(--primary);}
+        .t-stars{font-size:0.8rem;color:#ffd700;margin-bottom:4px;}
+        .t-text{font-size:0.8rem;color:var(--text-dim);font-style:italic;}
+
+        /* FAQ */
+        .faq-wrap{
+            max-width:800px;
+            margin:0 auto;
+        }
+        .faq-item{
+            background:#080808;
+            border-radius:12px;
+            border:1px solid #222;
+            margin-bottom:10px;
+            overflow:hidden;
+        }
+        .faq-q{
+            padding:14px 16px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            cursor:pointer;
+            font-size:0.9rem;
+            font-weight:600;
+        }
+        .faq-q span:last-child{
+            font-size:1.2rem;
+            transition:transform 0.3s ease;
+        }
+        .faq-item.active .faq-q span:last-child{transform:rotate(45deg);}
+        .faq-a{
+            max-height:0;
+            overflow:hidden;
+            padding:0 16px;
+            font-size:0.85rem;
+            color:var(--text-dim);
+            transition:max-height 0.3s ease,padding-bottom 0.3s ease;
+        }
+        .faq-item.active .faq-a{
+            max-height:200px;
+            padding-bottom:12px;
+        }
+
+        /* FOOTER */
+        footer{
+            padding:30px 5% 20px;
+            border-top:1px solid #222;
+            background:#050505;
+            font-size:0.8rem;
+        }
+
+        /* WHATSAPP FLOAT */
+        .wa-float{
+            position:fixed;
+            bottom:24px;
+            right:24px;
+            width:52px;
+            height:52px;
+            border-radius:50%;
+            background:#25d366;
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:1.7rem;
+            box-shadow:0 6px 20px rgba(0,0,0,0.6);
+            cursor:pointer;
+            z-index:999;
+        }
+        @media(max-width:768px){
+            .wa-float{bottom:70px;}
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="logo-wrap">
+            <img src="./Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)_files/fm-logo.png" alt="Farm Mutton Logo" class="logo-img">
+            <div class="logo-text">Farm Mutton</div>
+        </div>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+
+        <nav id="navMenu">
+            <a href="https://farmmutton.com/d#hero">Home</a>
+            <a href="https://farmmutton.com/d#products">Products</a>
+            <a href="https://farmmutton.com/d#why">Grass-Fed</a>
+            <a href="https://farmmutton.com/d#testimonials">Stories</a>
+            <a href="https://farmmutton.com/d#faq">FAQ</a>
+        </nav>
+
+        <button class="header-cta" onclick="openWhatsAppQuick()">WhatsApp Us</button>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-grid">
+        <div>
+            <div class="offer-pill">
+                <span>25% LAUNCH OFFER</span>
+                <span>Hyderabad Sunday mutton, upgraded</span>
+            </div>
+            <h1 class="hero-title">
+                <span>Sunday mutton without the queue.</span><br>
+                For Hyderabad’s IT couples &amp; bachelors.
+            </h1>
+            <p class="hero-sub">
+                If you love mutton but hate standing in Tolichowki or local butcher queues, Farm Mutton is built for you. 
+                Grass-fed goat, slaughtered Sunday 6–9 AM and delivered within 2 hours across West Hyderabad.
+            </p>
+            <div class="hero-metrics">
+                <span><strong>300+ weekly mutton lovers</strong> already switched</span>
+                <span>Free delivery to 16 West Hyderabad neighbourhoods</span>
+            </div>
+            <div class="hero-cta-row">
+                <button class="btn-main" onclick="scrollToProducts()">Build My Sunday Order</button>
+                <button class="btn-ghost" onclick="openWhatsAppQuick()">💬 Ask on WhatsApp</button>
+            </div>
+            <div class="urgency">
+                <span>⏰</span>
+                <span>Only <strong id="slotCount">27</strong> Sunday slots left this week.</span>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-card">
+                <img src="./Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)_files/curry-cut-image.webp" alt="Curry Cut Grass-Fed Mutton">
+                <div class="hero-caption">
+                    Signature curry cut for Hyderabadi Sunday mutton. No mixed meat, no overnight storage—just real grass-fed goat for your weekly ritual.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TOP 3 PRODUCTS -->
+<section class="section" id="products" style="background:#000;">
+    <div class="section-header">
+        <div class="section-eyebrow">SUNDAY MUTTON MENU</div>
+        <h2 class="section-title">Pick Your Cuts. We’ll Handle the Queues.</h2>
+        <p class="section-sub">
+            Choose exactly what you want—no forced combos. Curry Cut, Boneless and Kheema in 500g &amp; 1kg options. 
+            Add multiple products, then send one WhatsApp message without typing everything.
+        </p>
+    </div>
+
+    <div class="products-grid">
+        <!-- CURRY CUT -->
+        <div class="p-card" data-product="Curry Cut" data-price-kg="1200" data-discount-kg="900">
+            <div class="p-img-wrap">
+                <img src="./Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)_files/curry-cut-image.webp" alt="Curry Cut Mutton">
+            </div>
+            <div class="p-content">
+                <div class="p-title-row">
+                    <div>
+                        <div class="p-title">🍛 Curry Cut</div>
+                        <span class="p-badge">Hyderabad classic</span>
+                    </div>
+                </div>
+                <p class="p-desc">
+                    Bone-in pieces with the right meat-to-bone ratio for Hyderabadi mutton curry and biryani base. 
+                    Perfect for IT couples and families who cook mutton every Sunday.
+                </p>
+                <div class="p-price-row">
+                    <span class="p-old">₹1,200</span>
+                    <span class="p-new">₹900</span>
+                    <span class="p-meta">/ kg (25% launch price)</span>
+                </div>
+                <div class="p-size-row">
+                    <button class="p-size-btn active" data-grams="500">500g</button>
+                    <button class="p-size-btn" data-grams="1000">1kg</button>
+                </div>
+                <div class="p-qty-row">
+                    <button type="button" class="p-qty-btn" onclick="changeQty(this, -1)">−</button>
+                    <span class="p-qty-display">1</span>
+                    <button type="button" class="p-qty-btn" onclick="changeQty(this, 1)">+</button>
+                    <button class="p-add-btn" onclick="addProduct(this)">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- BONELESS -->
+        <div class="p-card" data-product="Boneless" data-price-kg="1400" data-discount-kg="1050">
+            <div class="p-img-wrap">
+                <img src="./Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)_files/bonless-mutton.webp" alt="Boneless Mutton">
+            </div>
+            <div class="p-content">
+                <div class="p-title-row">
+                    <div class="p-title">🥩 Boneless</div>
+                    <span class="p-badge">Zero-argue cut</span>
+                </div>
+                <p class="p-desc">
+                    Pure meat, no bone fights with the butcher. Great for fry, kebabs and quick bachelor meals when you don’t want to pick through bones.
+                </p>
+                <div class="p-price-row">
+                    <span class="p-old">₹1,400</span>
+                    <span class="p-new">₹1,050</span>
+                    <span class="p-meta">/ kg (25% launch price)</span>
+                </div>
+                <div class="p-size-row">
+                    <button class="p-size-btn active" data-grams="500">500g</button>
+                    <button class="p-size-btn" data-grams="1000">1kg</button>
+                </div>
+                <div class="p-qty-row">
+                    <button type="button" class="p-qty-btn" onclick="changeQty(this, -1)">−</button>
+                    <span class="p-qty-display">1</span>
+                    <button type="button" class="p-qty-btn" onclick="changeQty(this, 1)">+</button>
+                    <button class="p-add-btn" onclick="addProduct(this)">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- KHEEMA -->
+        <div class="p-card" data-product="Boneless Kheema" data-price-kg="1500" data-discount-kg="1125">
+            <div class="p-img-wrap">
+                <img src="./Farm Mutton – Hyderabad’s Sunday Mutton Without the Queue (25% Launch Offer)_files/mutton-kheema.jpg" alt="Boneless Kheema">
+            </div>
+            <div class="p-content">
+                <div class="p-title-row">
+                    <div class="p-title">🥙 Boneless Kheema</div>
+                    <span class="p-badge">Meal prep hero</span>
+                </div>
+                <p class="p-desc">
+                    Fine mince from boneless meat—ideal for keema pav, samosas, cutlets and weekly meal prep. 
+                    Perfect for bachelors who batch cook on Sunday.
+                </p>
+                <div class="p-price-row">
+                    <span class="p-old">₹1,500</span>
+                    <span class="p-new">₹1,125</span>
+                    <span class="p-meta">/ kg (25% launch price)</span>
+                </div>
+                <div class="p-size-row">
+                    <button class="p-size-btn active" data-grams="500">500g</button>
+                    <button class="p-size-btn" data-grams="1000">1kg</button>
+                </div>
+                <div class="p-qty-row">
+                    <button type="button" class="p-qty-btn" onclick="changeQty(this, -1)">−</button>
+                    <span class="p-qty-display">1</span>
+                    <button type="button" class="p-qty-btn" onclick="changeQty(this, 1)">+</button>
+                    <button class="p-add-btn" onclick="addProduct(this)">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top:18px;font-size:0.85rem;color:var(--text-dim);text-align:center;">
+        Mix any combination of Curry Cut, Boneless and Kheema. We’ll calculate total weight and price inside WhatsApp so you don’t have to.
+    </div>
+
+    <div style="margin-top:18px;text-align:center;">
+        <button class="btn-main" onclick="sendOrderWhatsApp()">Send My Sunday Order on WhatsApp</button>
+    </div>
+</section>
+
+<!-- GRASS-FED EDUCATION -->
+<section class="section" id="why" style="background:#040a07;">
+    <div class="section-header">
+        <div class="section-eyebrow">WHY GRASS-FED MATTERS IN HYDERABAD</div>
+        <h2 class="section-title">Built for People Who Eat Mutton Every Week</h2>
+        <p class="section-sub">
+            For Hyderabad’s Sunday mutton market, grass-fed goat gives better taste, lighter digestion and more consistent results than random butcher meat or frozen app orders.[web:115][web:118]
+        </p>
+    </div>
+    <div class="edu-wrap">
+        <div class="edu-card">
+            <div class="edu-icon">💪</div>
+            <div class="edu-title">Lean, High Protein</div>
+            <div class="edu-text">
+                Grass-fed goat provides high-quality protein with less unhealthy fat, ideal for weekly mutton without the guilt.[web:115][web:119]
+            </div>
+        </div>
+        <div class="edu-card">
+            <div class="edu-icon">❤️</div>
+            <div class="edu-title">Less “Food Coma” Sundays</div>
+            <div class="edu-text">
+                Customers report less heaviness compared to oily, inconsistent butcher meat—important for Monday-ready IT couples.[web:125][web:126]
+            </div>
+        </div>
+        <div class="edu-card">
+            <div class="edu-icon">🌾</div>
+            <div class="edu-title">No Hormone Overload</div>
+            <div class="edu-text">
+                Local farm goats, not pumped for weight. No aggressive hormone cycles, aligning with cleaner eating trends in urban India.[web:116][web:118]
+            </div>
+        </div>
+        <div class="edu-card">
+            <div class="edu-icon">🏡</div>
+            <div class="edu-title">“Village Goat” Taste at Home</div>
+            <div class="edu-text">
+                The same flavour profile Hyderabadis associate with village slaughter and family functions, without ever leaving your apartment.[web:137][web:140]
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testimonials">
+    <div class="section-header">
+        <div class="section-eyebrow">CUSTOMER STORIES</div>
+        <h2 class="section-title">What Queue-Haters in West Hyderabad Say</h2>
+    </div>
+    <div class="t-grid">
+        <div class="t-card">
+            <div class="t-header">
+                <div class="t-avatar">RK</div>
+                <div>
+                    <div class="t-name">Rajesh Kumar</div>
+                    <div class="t-loc">Gachibowli • IT Manager</div>
+                </div>
+            </div>
+            <div class="t-stars">★★★★★</div>
+            <div class="t-text">
+                "I used to stand in line at 8 AM every Sunday. Now I just confirm on WhatsApp Saturday night and focus on cooking. Quality is way more consistent than my old butcher."
+            </div>
+        </div>
+        <div class="t-card">
+            <div class="t-header">
+                <div class="t-avatar">PM</div>
+                <div>
+                    <div class="t-name">Priya Menon</div>
+                    <div class="t-loc">HITEC City • Fitness Coach</div>
+                </div>
+            </div>
+            <div class="t-stars">★★★★★</div>
+            <div class="t-text">
+                "We eat mutton almost every week. Grass-fed goat feels lighter, and the kheema works perfectly for macro-friendly meal prep for my clients."
+            </div>
+        </div>
+        <div class="t-card">
+            <div class="t-header">
+                <div class="t-avatar">SA</div>
+                <div>
+                    <div class="t-name">Shaik Ahmed</div>
+                    <div class="t-loc">Madhapur • Entrepreneur</div>
+                </div>
+            </div>
+            <div class="t-stars">★★★★★</div>
+            <div class="t-text">
+                "As a bachelor, I just want clean boneless and kheema without drama. This is the first time my Sunday mutton is predictable week after week."
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq" style="background:#000;">
+    <div class="section-header">
+        <div class="section-eyebrow">FAQ</div>
+        <h2 class="section-title">Questions Hyderabad’s Sunday Mutton Crowd Asks</h2>
+    </div>
+    <div class="faq-wrap">
+        <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+                <span>I hate typing long orders. How do I book?</span><span>+</span>
+            </div>
+            <div class="faq-a">
+                Add your cuts, sizes and quantities above, then tap “Send My Sunday Order on WhatsApp”.  
+                We generate a full summary with items, weights and prices, so you only pick slot and share address.[web:121][web:124]
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+                <span>What are your Sunday slots?</span><span>+</span>
+            </div>
+            <div class="faq-a">
+                We deliver every Sunday in three slots: 7–9 AM, 9–11 AM and 11 AM–1 PM.  
+                You confirm your preferred slot in WhatsApp before paying the 20% advance.
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+                <span>Which parts of West Hyderabad do you cover?</span><span>+</span>
+            </div>
+            <div class="faq-a">
+                We currently serve Gachibowli, HITEC City, Kondapur, Madhapur, Mehadipatnam, Tolichowki, Manikonda, Narsingi, Financial District, Hafeezpet, Kukatpally, Banjara Hills, Jubilee Hills, Lingampally, Tellapur and Serilingampally.[web:118]
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+                <span>Is delivery free?</span><span>+</span>
+            </div>
+            <div class="faq-a">
+                Yes. During our launch phase, delivery is free across all 16 West Hyderabad neighbourhoods—no extra packing or convenience fees.
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+                <span>How fresh is this compared to apps and local butchers?</span><span>+</span>
+            </div>
+            <div class="faq-a">
+                Goats are slaughtered Sunday morning between 6–9 AM, cut to order and delivered within roughly 2 hours.  
+                This beats frozen or overnight-stored meat on most delivery apps and removes the gamble of standing at random butchers.[web:115][web:122]
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:flex-start;">
+        <div>
+            <div style="font-family:&#39;Bebas Neue&#39;,sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--primary);">
+                Farm Mutton
+            </div>
+            <p style="font-size:0.8rem;color:#999;margin-top:6px;max-width:260px;">
+                Hyderabad’s Sunday mutton without the queue. Grass-fed goat, cut for real home cooks in West Hyderabad.
+            </p>
+        </div>
+
+        <div>
+            <div style="font-size:0.85rem;font-weight:700;margin-bottom:6px;">Sunday Service</div>
+            <p style="font-size:0.8rem;color:#999;line-height:1.5;">
+                Order cut-off: Saturday 11 PM<br>
+                Slaughter window: Sunday 6–9 AM<br>
+                Delivery slots: 7–9 • 9–11 • 11–1
+            </p>
+        </div>
+
+        <div>
+            <div style="font-size:0.85rem;font-weight:700;margin-bottom:6px;">Contact</div>
+            <p style="font-size:0.8rem;color:#999;line-height:1.5;">
+                WhatsApp: <a href="https://wa.me/919494051840" style="color:var(--primary);">+91 94940 51840</a><br>
+                Service area: West Hyderabad (16 neighbourhoods)
+            </p>
+        </div>
+    </div>
+
+    <div style="border-top:1px solid #222;margin-top:18px;padding-top:10px;font-size:0.75rem;color:#666;text-align:center;">
+        © 2026 Farm Mutton. All rights reserved.
+    </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<div class="wa-float" onclick="openWhatsAppQuick()">🟢</div>
+
+<script>
+    // Mobile menu
+    function toggleMenu(){
+        document.getElementById('navMenu').classList.toggle('active');
+    }
+
+    // Scroll helper
+    function scrollToProducts(){
+        document.getElementById('products').scrollIntoView({behavior:'smooth'});
+    }
+
+    // WhatsApp quick open
+    function openWhatsAppQuick(){
+        const msg = 'Hi! I don’t want to stand in butcher queues this Sunday. Tell me how Farm Mutton works.';
+        window.open('https://wa.me/919494051840?text=' + encodeURIComponent(msg),'_blank');
+    }
+
+    // Slot urgency counter (visual only)
+    let slots = 30;
+    const slotEl = document.getElementById('slotCount');
+    slotEl.textContent = slots;
+    setInterval(() => {
+        if (slots > 12){
+            slots -= Math.floor(Math.random()*2); // 0 or 1
+            slotEl.textContent = slots;
+        }
+    }, 240000); // every 4 minutes
+
+    // FAQ toggle
+    function toggleFaq(qEl){
+        const item = qEl.parentElement;
+        const all = document.querySelectorAll('.faq-item');
+        all.forEach(i => { if(i !== item) i.classList.remove('active'); });
+        item.classList.toggle('active');
+    }
+
+    // Product selection state (in-memory)
+    const selectedItems = [];
+
+    // Size button toggle
+    document.querySelectorAll('.p-size-row').forEach(row => {
+        row.addEventListener('click', e => {
+            if(e.target.classList.contains('p-size-btn')){
+                row.querySelectorAll('.p-size-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+            }
+        });
+    });
+
+    // Change qty with +/−
+    function changeQty(btn, delta){
+        const row = btn.closest('.p-qty-row');
+        const display = row.querySelector('.p-qty-display');
+        let value = parseInt(display.textContent,10);
+        if(isNaN(value)) value = 1;
+        value += delta;
+        if(value < 1) value = 1;
+        display.textContent = value;
+    }
+
+    // Add product
+    function addProduct(btn){
+        const card = btn.closest('.p-card');
+        const name = card.getAttribute('data-product');
+        const pricePerKg = parseInt(card.getAttribute('data-discount-kg'),10); // after 25% off
+        const sizeBtn = card.querySelector('.p-size-btn.active');
+        const grams = parseInt(sizeBtn.getAttribute('data-grams'),10); // 500 / 1000
+        const display = card.querySelector('.p-qty-display');
+        let qty = parseInt(display.textContent,10);
+        if(isNaN(qty) || qty < 1) qty = 1;
+
+        const existing = selectedItems.find(i => i.name === name && i.grams === grams);
+        if(existing){
+            existing.qty += qty;
+        }else{
+            selectedItems.push({name, grams, qty, pricePerKg});
+        }
+
+        btn.textContent = 'Added';
+        setTimeout(()=>{ btn.textContent = 'Add'; },800);
+        display.textContent = '1';
+    }
+
+    // Build WhatsApp message
+    function sendOrderWhatsApp(){
+        if(selectedItems.length === 0){
+            alert('Please add at least one product before sending the order.');
+            return;
+        }
+
+        let lines = [];
+        let totalWeight = 0;
+        let totalAmount = 0;
+
+        selectedItems.forEach((item, idx) => {
+            const lineKg = (item.grams/1000) * item.qty;
+            const lineTotal = item.pricePerKg * lineKg;
+            totalWeight += lineKg;
+            totalAmount += lineTotal;
+            lines.push(
+                `${idx+1}) ${item.name} - ${item.grams}g x ${item.qty} = ${lineKg.toFixed(2)} kg @ ₹${item.pricePerKg}/kg → ₹${Math.round(lineTotal)}`
+            );
+        });
+
+        const msg =
+`Hi! I want to pre-order fresh grass-fed mutton for this Sunday without standing in any butcher queue.
+
+Order Summary:
+${lines.join('\n')}
+
+Total Weight: ${totalWeight.toFixed(2)} kg
+Total Amount (after 25% off): ₹${Math.round(totalAmount)}
+
+Preferred Delivery Slot:
+7–9 AM / 9–11 AM / 11 AM–1 PM
+
+Delivery Address:
+[Type your full address here]
+
+Payment:
+I will pay 20% advance now via UPI to confirm the slot.`;
+
+        window.open('https://wa.me/919494051840?text=' + encodeURIComponent(msg),'_blank');
+    }
+</script>
+
+
+
+</body></html>
