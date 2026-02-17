@@ -4,35 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6e7dff, #a6c2ff);
+            color: #333;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #6e7dff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #5b68e0;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .map {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 600px) {
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <section>
-        <h2>Contact Information</h2>
-        <p>Email: support@farmmutton.com</p>
-        <p>Phone: +1-234-567-8900</p>
-    </section>
-    <section>
-        <h2>Contact Form</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br>
-            <input type="submit" value="Submit">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
-    </section>
-    <section>
-        <h2>Location Map</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509667!2d144.9537363153163!3d-37.81627997975177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11e1ef%3A0xa5597103018b8b52!2sFarm%20Mutton!5e0!3m2!1sen!2sau!4v1614620451888!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
-    <section>
-        <h2>Customer Service Details</h2>
-        <p>For any inquiries, please contact our customer service at:</p>
-        <p>Email: customerservice@farmmutton.com</p>
-        <p>Phone: +1-234-567-8901</p>
-    </section>
+        <div class="contact-info">
+            <div>
+                <strong>Address:</strong>
+                <p>123 Farm Mutton Lane<br>Meat Town, MT 12345</p>
+            </div>
+            <div>
+                <strong>Phone:</strong>
+                <p>(123) 456-7890</p>
+            </div>
+        </div>
+        <div>
+            <iframe class="map" src="https://maps.google.com/maps?q=Farm%20Mutton%20Lane&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+        </div>
+    </div>
 </body>
 </html>
